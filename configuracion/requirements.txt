@@ -1,0 +1,18 @@
+# Dependencias R para Power BI Salud Mental Dashboard
+# Instalar con: install.packages(read.csv('requirements.txt'))
+
+shiny>=1.7.0
+shinydashboard>=0.7.2
+ggplot2>=3.4.0
+dplyr>=1.0.0
+plotly>=4.10.0
+haven>=2.5.0
+DT>=0.27
+corrplot>=0.92
+
+# Opcionales
+renv>=0.17.0
+tidyr>=1.3.0
+scales>=1.2.0
+magrittr>=2.0.0
+lubridate>=1.9.0

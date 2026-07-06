@@ -1,0 +1,53 @@
+# R
+.Rhistory
+.Rapp.history
+.Rproj.user/
+.Rproj
+*.Rproj
+renv/
+.env
+.RData
+node_modules
+
+# Datos locales
+*.sav
+*.sav.bak
+*.spss
+*.xlsx
+*.xls
+
+# Archivos temporales
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Dependencias locales
+.packages
+.libPaths
+
+# Output
+output/
+results/
+temp/
+
+# Credentials
+.Rprofile
+.Renviron
+credentials.R
+config.local.R
+
+# Shiny
+rsconnect/
+.shinyapps/
