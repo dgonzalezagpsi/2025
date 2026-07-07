@@ -34,7 +34,7 @@ Dashboard profesional para análisis de salud mental en profesionales de la salu
 
 1. **Clonar el repositorio:**
 ```bash
-git clone https://github.com/tu-usuario/powerbi-salud-mental.git
+git clone https://github.com/dgonzalezagpsi/2025.git
 cd powerbi-salud-mental
 ```
 
