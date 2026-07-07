@@ -209,23 +209,23 @@ schedule::run_every(1, unit = "day", run_data())
 - Tablas: Hacer clic en botón "Download" en la tabla
 - Gráficos: Usar opciones de Plotly (camera icon)
 
-## 📚 Referencias
+## Referencias
 
 - [CD-RISC Escala de Resiliencia](https://academic.oup.com/depress-anxiety/article/13/2/78/6247)
 - [MHC-SF Continuo de Salud Mental](https://www.tandfonline.com/doi/full/10.1080/10439463.2011.546888)
 - [ProQol Calidad de Vida Profesional](https://proqol.org/)
 
-## 👥 Autores
+## Autores
 
 - **Investigación:** Donald Wylman González Aguilar
 - **Desarrollo:** Claude AI + R Shiny
 - **Datos:** Indicadores de salud mental en universitarios que desarrollan trabajo con personas en el departamento de Guatemala. Esta investigación fue cofinanciada con recursos de la Escuela de Ciencias Psicologicas y del Fondo de Investigación de la DIGI de la Universidad de San Carlos de Guatemala a través de la partida presupuestaria número: 4.8.63.0.84 en el Programa Universitario de Investigación en Educación.
 
-## 📜 Licencia
+## Licencia
 
 MIT License - Ver `LICENSE.md` para detalles
 
-## 🤝 Contribuir
+## Contribuir
 
 Las contribuciones son bienvenidas:
 
@@ -235,13 +235,13 @@ Las contribuciones son bienvenidas:
 4. Push a la rama (`git push origin feature/mejora`)
 5. Abrir Pull Request
 
-## 📧 Contacto
+## Contacto
 
 Para preguntas o sugerencias:
 - Email: tu-email@institucion.edu
 - Issues: [GitHub Issues](https://github.com/tu-usuario/powerbi-salud-mental/issues)
 
-## 🔄 Versiones
+## Versiones
 
 - **v1.0** (Julio 2026) - Versión inicial
   - Dashboard interactivo completo
