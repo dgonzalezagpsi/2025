@@ -1,39 +1,27 @@
-# 📊 Power BI Salud Mental - Dashboard Interactivo en R Shiny
+# Dashboard Interactivo en R Shiny
 
 Dashboard profesional para análisis de salud mental en profesionales de la salud, construido con **R Shiny**.
 
-## ✨ Características
+## Características
 
-- ✅ **4 Filtros Dinámicos** independientes:
-  - Rango de edad (18-22, 23-27, 28-32, 33+)
-  - Horas laborales (1-4 horas)
-  - Situación laboral
-  - Horario de trabajo
+- **Filtros Dinámicos** 
+- **KPIs en Tiempo Real** que se actualizan según filtros:
 
-- ✅ **KPIs en Tiempo Real** que se actualizan según filtros:
-  - Total de respondentes
-  - Resiliencia promedio (CD-RISC)
-  - Bienestar mental (MHC-SF)
-  - Edad promedio
 
-- ✅ **5 Pestañas de Análisis:**
+- **Pestañas de Análisis:**
   1. **Dashboard** - KPIs y gráficos principales
   2. **Análisis Profundo** - Burnout, fatiga, satisfacción
   3. **Correlaciones** - Matrices y scatter plots
   4. **Datos** - Tabla interactiva con 581 registros
   5. **Información** - Metadata del estudio
 
-- ✅ **12+ Visualizaciones Interactivas:**
-  - Gráficos de barras, líneas, dónut
-  - Scatter plots de correlaciones
-  - Matriz de correlaciones
-  - Tablas dinámicas (DT)
-
-## 📊 Datos
+- **Visualizaciones Interactivas:**
+  - 
+## Datos
 
 - **Muestra:** 581 profesionales de la salud
 - **Variables:** 35+ indicadores de salud mental
-- **Instrumentos:** CD-RISC, MHC-SF, ProQol, PHQ-9, GAD-7, AUDIT
+- **Instrumentos:** CD-RISC, MHC-SF, ProQol, PHQ-9, GAD-7
 - **Período:** Abril - Agosto 2025
 
 ## 🚀 Instalación Local
@@ -72,7 +60,7 @@ shiny::runApp()
 4. **Acceder a la app:**
 La aplicación se abrirá en `http://localhost:3838`
 
-## ☁️ Desplegar en la Nube
+## Desplegar en la Nube
 
 ### Opción 1: Shiny Server (Servidor Propio)
 
@@ -128,7 +116,7 @@ Convertir Shiny a HTML estático:
 htmlwidgets::saveWidget(plotly_object, "chart.html")
 ```
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 powerbi-salud-mental/
@@ -149,7 +137,7 @@ powerbi-salud-mental/
     └── VARIABLES.md         # Diccionario de variables
 ```
 
-## 🔗 Integración con Qualtrics
+## Integración con Qualtrics
 
 Para integrar con Qualtrics:
 
@@ -174,34 +162,21 @@ df_clean <- data %>% process_data()
 schedule::run_every(1, unit = "day", run_data())
 ```
 
-## 🔐 Seguridad
+## Seguridad
 
-- ✅ Datos anonimizados (sin identificadores personales)
-- ✅ Consentimiento informado requerido
-- ✅ Cumplimiento GDPR/LOPD
-- ✅ Acceso restringido si es necesario
+- Datos anonimizados (sin identificadores personales)
+- Consentimiento informado requerido
+- Cumplimiento GDPR/LOPD
+- Acceso restringido si es necesario
 
-## 📊 Análisis Incluidos
-
-### Dashboard Principal
-- Distribución por edad
-- Horas laborales promedio
-- Tendencias de resiliencia y bienestar
-- Comparativa multidimensional
-
-### Análisis Profundo
-- Burnout ocupacional
-- Fatiga por compasión
-- Satisfacción profesional
-- Agotamiento emocional
-- Estadísticas clave (porcentajes)
+## Análisis Incluidos
 
 ### Correlaciones
 - Matriz de correlaciones
 - Scatter plots (Resiliencia vs Bienestar, Edad vs Resiliencia)
 - Análisis de asociaciones
 
-## 🎯 Casos de Uso
+## Casos de Uso
 
 ✓ Investigación académica
 ✓ Evaluación institucional
@@ -210,7 +185,7 @@ schedule::run_every(1, unit = "day", run_data())
 ✓ Comunicación con stakeholders
 ✓ Benchmarking con otras organizaciones
 
-## 📝 Instrucciones de Uso
+## Instrucciones de Uso
 
 ### Aplicar Filtros
 1. En la barra lateral izquierda, seleccionar valores en los filtros
@@ -218,11 +193,11 @@ schedule::run_every(1, unit = "day", run_data())
 3. Hacer clic en "Restablecer Filtros" para limpiar
 
 ### Navegar Pestañas
-- **📈 Dashboard:** Visión general rápida
-- **🔍 Análisis Profundo:** Indicadores específicos de salud mental
-- **🔗 Correlaciones:** Relaciones entre variables
-- **📋 Datos:** Acceso a registros individuales
-- **ℹ️ Información:** Documentación y metodología
+- **Dashboard:** Visión general rápida
+- **Análisis Profundo:** Indicadores específicos de salud mental
+- **Correlaciones:** Relaciones entre variables
+- **Datos:** Acceso a registros individuales
+- **Información:** Documentación y metodología
 
 ### Exportar Datos
 - Tablas: Hacer clic en botón "Download" en la tabla
@@ -236,9 +211,9 @@ schedule::run_every(1, unit = "day", run_data())
 
 ## 👥 Autores
 
-- **Investigación:** [Tu Nombre/Institución]
+- **Investigación:** Donald Wylman González Aguilar
 - **Desarrollo:** Claude AI + R Shiny
-- **Datos:** BaseDigi 2025
+- **Datos:** Indicadores de salud mental en universitarios que desarrollan trabajo con personas en el departamento de Guatemala. Esta investigación fue cofinanciada con recursos de la Escuela de Ciencias Psicologicas y del Fondo de Investigación de la DIGI de la Universidad de San Carlos de Guatemala a través de la partida presupuestaria número: 4.8.63.0.84 en el Programa Universitario de Investigación en Educación.
 
 ## 📜 Licencia
 
@@ -262,7 +237,7 @@ Para preguntas o sugerencias:
 
 ## 🔄 Versiones
 
-- **v1.0** (Julio 2025) - Versión inicial
+- **v1.0** (Julio 2026) - Versión inicial
   - Dashboard interactivo completo
   - 5 pestañas de análisis
   - 4 filtros dinámicos
@@ -270,4 +245,4 @@ Para preguntas o sugerencias:
 
 ---
 
-**Última actualización:** Julio 5, 2025
+**Última actualización:** Julio 5, 2026
