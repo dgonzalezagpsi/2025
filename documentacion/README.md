@@ -179,11 +179,17 @@ schedule::run_every(1, unit = "day", run_data())
 ## Casos de Uso
 
 ✓ Investigación académica
+
 ✓ Evaluación institucional
+
 ✓ Monitoreo de salud mental ocupacional
+
 ✓ Diseño de intervenciones
+
 ✓ Comunicación con stakeholders
+
 ✓ Benchmarking con otras organizaciones
+
 
 ## Instrucciones de Uso
 
