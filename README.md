@@ -24,7 +24,7 @@ Dashboard profesional para análisis de salud mental en profesionales de la salu
 - **Instrumentos:** CD-RISC, MHC-SF, ProQol, PHQ-9, GAD-7
 - **Período:** Abril - Agosto 2025
 
-## Instalación Local
+## 🚀 Instalación Local
 
 ### Requisitos
 - R >= 4.0
@@ -34,7 +34,7 @@ Dashboard profesional para análisis de salud mental en profesionales de la salu
 
 1. **Clonar el repositorio:**
 ```bash
-git clone https://github.com/tu-usuario/powerbi-salud-mental.git
+git clone https://github.com/dgonzalezagpsi/2025.git
 cd powerbi-salud-mental
 ```
 
@@ -179,11 +179,17 @@ schedule::run_every(1, unit = "day", run_data())
 ## Casos de Uso
 
 ✓ Investigación académica
+
 ✓ Evaluación institucional
+
 ✓ Monitoreo de salud mental ocupacional
+
 ✓ Diseño de intervenciones
+
 ✓ Comunicación con stakeholders
+
 ✓ Benchmarking con otras organizaciones
+
 
 ## Instrucciones de Uso
 
@@ -209,7 +215,7 @@ schedule::run_every(1, unit = "day", run_data())
 - [MHC-SF Continuo de Salud Mental](https://www.tandfonline.com/doi/full/10.1080/10439463.2011.546888)
 - [ProQol Calidad de Vida Profesional](https://proqol.org/)
 
-## 👥 Autores
+## Autoría
 
 - **Investigación:** Donald Wylman González Aguilar
 - **Desarrollo:** Claude AI + R Shiny
