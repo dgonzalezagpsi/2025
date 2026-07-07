@@ -1,4 +1,4 @@
-# 📚 Guía Completa: Subir a GitHub y Desplegar
+# Guía Completa: Subir a GitHub y Desplegar
 
 ## ✅ Paso 1: Preparar el Proyecto Localmente
 
