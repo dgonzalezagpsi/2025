@@ -1,4 +1,4 @@
-# PowerBI Dashboard en Shiny - Salud Mental BaseDigi 2025
+# Dashboard en Shiny - Salud Mental BaseDigi 2025
 # Cargar librerías
 library(shiny)
 library(shinydashboard)
