@@ -24,7 +24,7 @@ Dashboard profesional para análisis de salud mental en profesionales de la salu
 - **Instrumentos:** CD-RISC, MHC-SF, ProQol, PHQ-9, GAD-7
 - **Período:** Abril - Agosto 2025
 
-## 🚀 Instalación Local
+## Instalación Local
 
 ### Requisitos
 - R >= 4.0
